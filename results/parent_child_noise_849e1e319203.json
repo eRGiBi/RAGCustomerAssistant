@@ -1,0 +1,25 @@
+{
+    "exp_name": "parent_child_noise_849e1e319203",
+    "results": {
+        "LLMContextPrecisionWithReference": 0.8105463980214923,
+        "LLMContextRecall": 0.8308823529411765,
+        "Faithfulness": 0.785,
+        "BleuScore": 0.14797455164208642,
+        "RougeScore": 0.2208288115948111
+    },
+    "parameters": {
+        "retriever_name": "parent_child",
+        "top_k": 5,
+        "parent_chunk_size": 2000,
+        "parent_overlap": 400,
+        "child_chunk_size": 500,
+        "child_overlap": 100,
+        "embedding_dimension": 512,
+        "dataset_cleaned": false,
+        "llm_parameters": {
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "max_output_tokens": 500
+        }
+    }
+}

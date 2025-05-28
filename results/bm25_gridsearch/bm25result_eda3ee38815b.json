@@ -1,0 +1,27 @@
+{
+    "exp_name": "bm25resulteda3ee38815b",
+    "results": {
+        "LLMContextPrecisionWithReference": 0.6364468864123168,
+        "LLMContextRecall": 0.7243295019157088,
+        "Faithfulness": 0.5820833333333333,
+        "BleuScore": 0.09991203529088558,
+        "RougeScore": 0.19190621976526134
+    },
+    "parameters": {
+        "retriever_name": "bm25",
+        "top_k": 3,
+        "embedding_dimension": 512,
+        "dataset_cleaned": true,
+        "bm25_params": {
+            "k1": 1.7,
+            "b": 0.7,
+            "epsilon": 0.25
+        },
+        "tokenizer": "word_tokenize",
+        "llm_parameters": {
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "max_output_tokens": 500
+        }
+    }
+}

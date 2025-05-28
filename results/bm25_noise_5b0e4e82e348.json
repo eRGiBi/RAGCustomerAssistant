@@ -1,0 +1,25 @@
+{
+    "exp_name": "bm25_noise_5b0e4e82e348",
+    "results": {
+        "LLMContextPrecisionWithReference": 0.6430555555320396,
+        "LLMContextRecall": 0.7425287356321838,
+        "Faithfulness": 0.7640731292517007,
+        "BleuScore": 0.1464800999567519,
+        "RougeScore": 0.2271217380486383
+    },
+    "parameters": {
+        "retriever_name": "bm25",
+        "top_k": 5,
+        "dataset_cleaned": false,
+        "bm25_params": {
+            "k1": 1.5,
+            "b": 0.75,
+            "epsilon": 0.25
+        },
+        "llm_parameters": {
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "max_output_tokens": 500
+        }
+    }
+}

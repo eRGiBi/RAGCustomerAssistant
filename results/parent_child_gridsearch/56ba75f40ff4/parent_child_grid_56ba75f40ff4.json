@@ -1,0 +1,27 @@
+{
+    "exp_name": "parent_child_grid_56ba75f40ff4",
+    "results": {
+        "LLMContextPrecisionWithReference": 0.8284798534471924,
+        "LLMContextRecall": 0.7845098039215687,
+        "Faithfulness": 0.6706572769953052,
+        "BleuScore": 0.11952679183135083,
+        "RougeScore": 0.23088921286867836
+    },
+    "parameters": {
+        "retriever_name": "parent_child",
+        "top_k": 5,
+        "chunk_parents": false,
+        "parent_chunk_size": 2000,
+        "parent_overlap": 400,
+        "child_chunk_size": 150,
+        "child_overlap": 50,
+        "embedding_dimension": 512,
+        "dataset_cleaned": false,
+        "llm_parameters": {
+            "model_id": "amazon.nova-micro-v1:0",
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "max_output_tokens": 500
+        }
+    }
+}

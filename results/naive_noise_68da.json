@@ -1,0 +1,23 @@
+{
+    "exp_name": "naive_noise_68da",
+    "results": {
+        "LLMContextPrecisionWithReference": 0.18498168496732295,
+        "LLMContextRecall": 0.10272518646012621,
+        "Faithfulness": 0.3693486590038314,
+        "BleuScore": 0.026124795999071602,
+        "RougeScore": 0.09450623210786178
+    },
+    "parameters": {
+        "retriever_name": "Naive",
+        "top_k": 5,
+        "chunk_size": 1000,
+        "overlap": 200,
+        "embedding_dimension": 512,
+        "dataset_cleaned": false,
+        "llm_parameters": {
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "max_output_tokens": 500
+        }
+    }
+}

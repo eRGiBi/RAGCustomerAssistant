@@ -1,0 +1,26 @@
+{
+    "exp_name": "parent_child_cleaned_4ae0c750d047_4ae0c750d047",
+    "results": {
+        "LLMContextPrecisionWithReference": 0.8335775335473957,
+        "LLMContextRecall": 0.843746414228342,
+        "Faithfulness": 0.7594902749832327,
+        "BleuScore": 0.12285489091471628,
+        "RougeScore": 0.2104504682316389
+    },
+    "parameters": {
+        "retriever_name": "parent_child",
+        "top_k": 5,
+        "chunk_parents": false,
+        "parent_chunk_size": 2000,
+        "parent_overlap": 400,
+        "child_chunk_size": 750,
+        "child_overlap": 100,
+        "embedding_dimension": 512,
+        "dataset_cleaned": true,
+        "llm_parameters": {
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "max_output_tokens": 500
+        }
+    }
+}
