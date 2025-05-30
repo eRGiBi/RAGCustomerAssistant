@@ -2,6 +2,8 @@
 
 ## README outline
 
+<h5>
+
 - README outline
 - Main goals
 - Task Outline
@@ -16,6 +18,7 @@
   - AWS Knowledge base setup
   - AWS Lambda setup
 - Lambda function Postman API example
+
 
 ## Main goals
 
@@ -437,6 +440,17 @@ BM25 offers very fast initialization and query time, but with 20% lower retrieva
       <td id="T_be879_row3_col5" class="data row3 col5" >0.785000</td>
       <td id="T_be879_row3_col6" class="data row3 col6" >0.147975</td>
       <td id="T_be879_row3_col7" class="data row3 col7" >0.220829</td>
+    </tr>
+    <tr>
+      <th id="T_be879_level0_row3" class="row_heading level0 row3" >4</th>
+      <td id="T_be879_row3_col0" class="data row3 col0" >750</td>
+      <td id="T_be879_row3_col1" class="data row3 col1" >100</td>
+      <td id="T_be879_row3_col2" class="data row3 col2" >5</td>
+      <td id="T_be879_row3_col3" class="data row3 col3" >0.833578</td>
+      <td id="T_be879_row3_col4" class="data row3 col4" >0.843746</td>
+      <td id="T_be879_row3_col5" class="data row3 col5" >0.759490</td>
+      <td id="T_be879_row3_col6" class="data row3 col6" >0.122855</td>
+      <td id="T_be879_row3_col7" class="data row3 col7" >0.210450</td>
     </tr>
   </tbody>
 </table>
